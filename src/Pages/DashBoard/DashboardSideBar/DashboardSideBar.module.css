@@ -1,0 +1,35 @@
+.DashBoard_section{
+    width: 240px;
+    height: 1167px;
+    background-color: #01744A;
+    /* border: 1px solid black; */
+}
+.DashBoard_sidebar{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.DashBoard_sidebar h2{
+    position: relative;
+    left: 20px;
+    font-weight: 800;
+}
+.DashBoard_ul{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 25px;
+    width: 200px;
+}
+.DashBoard_sidebar ul li{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    width: 170px;
+    margin: 20px;
+    border-radius: 10px; 
+    color: white;
+    font-weight: 700;
+    /* border: 1px solid black; */
+}
+
+

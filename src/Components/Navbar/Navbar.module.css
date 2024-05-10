@@ -1,0 +1,133 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0px -5px 30px 0px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    /* background-color: red; */
+}
+.navbar1{
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    /* background-color: red; */
+
+    /* border: 1px solid black; */
+
+}
+.dropdown{
+    color: black;
+}
+.dropdown:hover{
+    color: #0486A8;
+    transition: 1s;
+}
+.list{
+    display: flex;
+    gap: 70px;
+    font-size: 17px;
+    /* border: 1px solid black; */
+}
+.navbar2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-right: 200px;
+    /* border: 1px solid black; */   
+}
+.log_in{
+    color: black;
+}
+.log_in:hover{
+    color: #0486A8;
+    transition: 1s;
+    cursor: pointer;
+    /* font-weight: bolder; */
+}
+
+.cleanCity{
+    font-family: "SF Pro";
+    font-weight: bolder;
+    color: #0486A8;
+    font-size: 24px;
+    padding-right: 50px;
+}
+.city{
+    color: #00CA5B;
+}
+.list ul {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 4px;
+    /* border: 1px solid black; */
+
+}
+.create_account{
+    width: 173px;
+    height: 42px;
+    font-size: 18px
+
+}
+.mobile_navbar{
+    display: none;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+.list.mobile_list{
+    display: flex;
+    /* background-color: red; */
+    transition: transform 0.5s ease-in-out; 
+    transform: translateY(0);
+}
+@media screen and (max-width: 760px) {
+    .navbar{
+        width: 100vw;
+    }
+    .navbar1{
+        width: 100vw;
+        padding-left: 0px;
+        justify-content: space-between;
+        gap:0px;
+        cursor: pointer;
+        /* background-color: red; */
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        padding: 20px;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(-100%);
+    }
+    
+    .navbar2{
+        display: none;
+        
+    }
+    .mobile_navbar{
+        display: flex;
+        border: none;
+        background-color: unset;
+        cursor: pointer;
+        z-index: 10;
+
+    }
+    
+}
+    

@@ -1,0 +1,69 @@
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background: url("/src/assets/BackgroundImages/Background_image.jpg");
+    background-color: lightgrey 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.container1{
+    font-family: "SF Pro";
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 120%; */
+    font-style: normal;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    /* border: 1px solid white; */
+
+    
+}
+.container2{ 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+    /* border: 1px solid white; */
+    margin-top: 15px;
+}
+.btn_1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 65%;
+    gap: 20px;
+    /* border: 1px solid white; */
+    left: 10.7%;
+}
+/* .btn_2{
+    background-color: unset;
+    border: 2px solid white;
+} */
+
+ @media screen and (max-width: 760px) {
+    .homepage{
+        width: 100vw;
+    }
+    .container1{
+        font-size: 25px;
+        top: 30%;
+        left: 0%;
+        text-align: center;    
+    }
+    .btn_1{
+        /* border: 1px solid white; */
+        left: 20%;
+    }
+}
+
+   

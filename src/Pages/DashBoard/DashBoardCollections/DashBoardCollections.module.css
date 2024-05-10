@@ -1,0 +1,121 @@
+.collection_main{
+    /* border: 1px solid black; */
+    height: 401px;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    display: flex;
+    gap: 40px;
+}
+.collection_section{
+    border: 1px solid black;
+    width: 950px;
+    height: 401px;
+    border-radius: 20px;
+}
+
+.collectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    padding: 10px 20px 0px 20px;
+}
+.collectionSelect{
+    border: 2px solid #E7EEEF;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width:182px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.collectionSelect span:nth-child(2){
+    background-color:#E7EEEF ;
+    border: 2px solid #E7EEEF;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    color: #0486A8;;
+}
+.collection_container{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    width: 100%;
+
+}
+.collections{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* border: 1px solid black; */
+    width: 180px;  
+}
+
+.collections ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    font-size: 14px;
+    gap: 15px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    height: 150px;
+}
+.collections h4{
+    color: #0486A8;
+}
+.make_request{
+    width: 143px;
+    height: 39px;
+    background-color: #0486A8;
+    font-size: 14px;
+    padding: 10px;
+}
+.collection_pickup{
+    width: 363px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.collection_pickup1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+.collection_pickup1 h4{
+    position: relative;
+    left: 10px;
+   display: flex;
+   justify-content: space-around;
+   font-size: 14px;
+   font-weight: 500;  
+}
+.pickup_line{
+    width: 312px;
+    border: 1px solid #B0B4B5;
+}

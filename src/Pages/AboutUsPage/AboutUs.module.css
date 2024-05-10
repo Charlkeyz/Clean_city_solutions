@@ -1,0 +1,140 @@
+.aboutUs_container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    width: 1182px;
+    /* background-color: red; */
+    padding: 10px;
+
+}
+.heading_paragraph{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutUs_index1{
+    gap: 0px;
+    top: 50px;
+    align-items: center;
+}
+.aboutUs_index1 p{
+    letter-spacing: 0.7px;
+}
+.aboutUs_index2{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    top: 30px;
+
+}
+.heading_paragraph h1{
+    font-size: 42px;
+    width: 600px;
+}
+.heading_paragraph p{
+    font-size: 18px;
+    /* width: 670px; */
+}
+.aboutUs_reverse{
+    flex-direction: row-reverse;
+}
+.socialIcon_container{
+    display: flex;
+    gap: 20px;
+}
+.aboutUs_socialIcons{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.socialIcons{
+    color: white;
+    font-size: 20px;
+}
+.aboutSignIn{
+    background-color: black;
+    width: 331px;
+    height: 53px;
+    border-radius: 0;
+}
+@media screen and (max-width: 760px) {
+    .aboutSignIn{
+        background-color: black;
+        width: 60px;
+        height: 20px;
+        border-radius: 0;
+        font-size: 7px;
+    }
+    .aboutUs_container{
+        gap: 20px;
+    }
+    .aboutUs_index1{
+        display: flex;
+        flex-direction: column;      
+    }
+    .aboutUs_index2 {
+        display: flex;
+        text-align: center;
+        /* background-color: red; */
+        align-items: center;
+        position: relative;
+        top: 50px;
+        left: -50px;
+    }
+    .aboutUs_index1 p{
+        letter-spacing: 0.1px;
+
+    }
+    
+    .mobile_aboutUs{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .aboutUs img{
+        width: 100px;
+        height: 100%;
+    }
+    .aboutUs_reverse{
+        flex-direction: unset;
+    }
+    .aboutUs{
+        width: 100vw;
+        margin-top: 10px;
+        gap: 10px;
+        /* background-color: red; */
+    }
+    .heading_paragraph{
+        display: flex;   
+        /* background-color: red; */
+    }
+    .heading_paragraph h1{
+        font-size: 15px;
+        width: 50vw;
+    }
+    .heading_paragraph p{
+        font-size: 10px;
+        /* width: 670px; */
+    }
+    
+}

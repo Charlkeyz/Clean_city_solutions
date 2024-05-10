@@ -1,0 +1,156 @@
+.input_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 50px;
+}
+.signUp_account{
+    width: 200%;
+    
+}
+
+.input_form > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+
+    gap: 10px;
+}
+.input_form  section  h1{
+    font-size: 30px;
+}
+.input_form  section  p{
+    color: grey;
+}
+.log_in{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.log_in:hover{
+    cursor: pointer;
+    color: #0486A8;
+}
+.input_form > form{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.input_form > form > input{
+    width: 60%;
+    height: 62px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 10px;
+}
+.input_form > form > input::placeholder{
+    font-size: 17px;
+}
+.passwordEye{
+    position: relative;
+    display: flex;
+    /* z-index: 10; */
+    bottom: 50px;
+    left: 180px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.buttons{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    /* bottom: p; */
+    /* border: 1px solid black; */
+}
+.checkbox{
+    width: 60%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 80%;
+    right: 140px;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    line-height: 18.9px
+}
+
+
+.checkbox input[type="checkbox"]:checked{
+    background-color: #0486A8; 
+    border: none;
+    
+}
+.checkbox input[type="checkbox"]:checked:after{
+    content: "\2713";
+    color: white;
+    
+}
+.checkbox input[type = "checkbox"]{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    appearance: none;
+    border-radius: 10%;
+    box-shadow: none;
+    font-size: 0.9em;
+}
+.checkbox1{
+    width: 17px;
+    height: 17px;
+    border: 1px solid black;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* .input_form > form > input:nth-child(4)[type="password"]::-webkit-password-saved {
+    display: none;
+} */
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+@media screen  and (max-width: 768px) {
+    .input_form{
+        width: 100vw;
+        height: 100vh;
+        top: 20px;
+    }
+    .signUp_account{
+        width: 150%;
+        position: relative;
+        top: 25px;
+        right: 45px;
+        
+    }
+    .input_form > form > input{
+        width: 100%;  
+    }
+    .input_form form{
+        padding: 20px;
+    }
+    .passwordEye{
+        position: relative;
+        display: flex;
+        /* z-index: 10; */
+        bottom: 50px;
+        left: 150px;
+        cursor: pointer;
+        /* border: 1px solid black; */
+    }
+    
+}

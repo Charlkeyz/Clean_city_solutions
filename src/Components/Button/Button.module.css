@@ -1,0 +1,112 @@
+.button{
+    display: flex;
+    height: 60px;
+    width: 13rem;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color:#00CA5B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.10);
+    /* border: 1px solid black; */
+}
+.button:hover{
+    background-color: #0486A8;
+    transition: 0.5s;
+    border: none;
+    border-radius: 10px;
+    transform: translateY(2px);
+
+}
+
+.btn_2{
+    background-color: unset;
+    border: 2px solid white;
+}
+.signUp_btn{
+    width: 200%;
+    /* border: 1px solid black; */
+}
+.log_in_btn{
+    width: 375%;
+}
+.googleSignIn{
+    background-color: unset;
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+}
+.googleSignIn:hover{
+    background-color: unset;
+    border: 1px solid black;
+}
+.next_button{
+    width: 134px;
+    height: 61px;
+}
+.buildingBtn{
+    width: 136px;
+    height: 51px;
+    background-color: white;
+    color: black;
+    padding: 13px, 20px, 15px, 20px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.buildingBtn:hover{
+    background-color: #EBEBEB;
+    border: 1px solid #0486A8 ;
+}
+.wasteBtn{
+    width: 108px;
+    height: 51px;
+    background-color: white;
+    color: black;
+    padding: 13px, 20px, 15px, 20px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.wasteBtn:hover{
+    background-color: #EBEBEB;
+    border: 1px solid #0486A8 ;
+
+}
+.finish_btn{
+    width: 536px;
+    height: 64px;
+
+}
+.finish_btn:hover{
+    transition: none;
+}
+.aboutSignIn{
+    background-color: black;
+    width: 331px;
+    height: 53px;
+    border-radius: 0;
+}
+.aboutSignIn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+    transition: 1s;
+}
+.collectionBtn{
+    width: 130px;
+    height: 40px;
+    background-color: #0486A8;
+    font-size: 14px;
+    line-height: 18.9px;
+    font-weight: 500;
+}

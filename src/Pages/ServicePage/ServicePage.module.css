@@ -1,0 +1,352 @@
+.service_container1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_style1{
+    width: 548px;
+    height: 346px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container_style1 h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.container_style1 p{
+    width: 430px;
+    font-size: 18px;
+    line-height: 23.4px;
+    /* border: 1px solid black; */
+}
+.container_style1 h5{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 23.4px;
+}
+.service_container2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#01744A ;
+    gap: 50px;
+    /* border: 1px solid black; */
+
+}
+.container2_style1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 245px;
+}
+.service_recycle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 600px;
+    color: white;
+    /* border: 1px solid black; */
+}
+.service_recycle h3{
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.service_recycle p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    letter-spacing: 0.4px;
+}
+.container2_style2{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.service_items{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 423px;
+    height: 370px;
+    color: white;    
+}
+.serviceBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    position: relative;
+}
+.data_service{
+    color: white;
+    margin-top: 70px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.service_container3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_container3 img{
+    height: 734px;
+}
+.service_wasteCollections{
+    /* border: 1px solid black; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+}
+.service_wasteCollections h3 {
+    text-decoration: underline;
+    /* font-family: "Montserrat"; */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: left;
+}
+.service_container4{
+    height: 50vh;
+    background-color: #FDE8E8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.service_container4{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 46.8px;
+    
+
+}
+.our_partners{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.service_container5{
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    
+}
+.service_community{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/src/assets/Service_image/image\ 2201.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service_community h1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    gap: 400px;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 46.8px;
+}
+.service_community h3{
+    display: flex;
+    position: relative;
+    top: 150px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46.8px;
+}
+.service_subscribe{
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.service_subscribe p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    width: 364px;
+}
+.service_subscribe button{
+    background-color:#00794A;
+    color: white;
+    width: 334px;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 26px 6px 26px;
+}
+.mobilePosition{
+    position: relative;
+    top: 50px;
+}
+@media screen and (max-width: 760px){
+    .data_service{
+        margin-top: -50px;
+    }
+    .container_style1 h5{
+        width: 50vw;
+        font-size: 15px;
+    }
+    
+    
+    .service_container5{
+        height: 70vh;
+        background-color: black;
+        display: none;
+        align-items: center;
+        color: white;
+        
+        
+    }
+    .our_partners{
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        padding: 20px;
+    }
+    .partners_img{
+        width: 70px;
+        
+    }
+    .service_container4 h1{
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        /* width: 50vh; */
+        text-align: center;
+    }
+    .service_container4{
+        width: 100vw;
+        
+    }
+    .service_wasteCollections{
+        /* border: 1px solid black; */
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+    }
+    .service_container3{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .service_container3 img{
+        height: 350px;
+        width: 350px;
+
+    }
+    .container_style1{
+        width: 100vw;
+        padding: 20px;
+    }
+    .container_style1 h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .container_style2{
+        display: none;
+    }
+    .container_style1 p{
+        font-size: 18px;
+        width: 80vw;
+    }
+    .service_recycle h3{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .serviceBody{
+        width: 100px;
+        position: relative;
+        top: -70px;
+    }
+    .mobilePosition{
+        position: relative;
+        /* background-color: yellow; */
+        top: -45px;
+        /* padding-right: 10px; */
+    }
+    .serviceBody h2{
+        font-size: 12px;
+    }
+    .serviceBody p{
+        font-size: 10px;
+    }
+    .service_items{
+        width: 100px;
+        gap: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container2_style2{ 
+        width: 100vw;
+        gap: 0px;
+        flex-wrap: wrap;
+        padding: 10px;
+        position: relative;
+        top: 50px;
+    }
+    .service_recycle{
+        width: 50vw;
+        gap: 0px;
+    }
+    .service_recycle p{
+        font-size: 10px; 
+        line-height: 17px;
+
+    }
+    .mobile_service_image{
+        width: 140px;
+    }
+    .mobile_service_image2{
+        width: 120px;
+        height: 110px;
+        padding: 10px;
+
+    }
+    .container2_style1{
+        position: relative;
+        top: 50px;
+    }
+}

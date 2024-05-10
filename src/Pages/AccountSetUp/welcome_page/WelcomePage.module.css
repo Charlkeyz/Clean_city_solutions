@@ -1,0 +1,50 @@
+
+.welcome_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+
+.welcome_container  h1{
+    width: 382px;
+    height: 80px;
+    font-size: 35px;
+}
+.welcome_container  p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+.confirm_pickup{
+    /* position: relative; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+
+}
+.one p{
+    margin-bottom: 10px;
+}
+.two p{
+    margin-bottom: 10px;
+}
+.two{
+    margin-top: 40px
+}
+.confirm_pickup  p{
+    width: 251px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.confirm_pickup  input{
+    width: 438px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 300
+}

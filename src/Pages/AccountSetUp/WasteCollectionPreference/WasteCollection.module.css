@@ -1,0 +1,68 @@
+.waste_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.waste_container > h1{
+    /* border: 1px solid black; */
+    width: 583px;
+    height: 40px;
+    font-size: 35px;
+}
+.waste_container > p{
+    width: 583px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+.waste_option{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.waste_selection select{
+    width: 355px; 
+    height: 47px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px, 20px, 12px, 20px;
+}
+.wasteBtn_container{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+
+
+}
+.wasteBtn{
+    width: 108px;
+    height: 51px;
+    background-color: white;
+    color: black;
+    padding: 13px, 20px, 15px, 20px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.wasteBtn:hover{
+    background-color: #EBEBEB;
+    border: 1px solid #0486A8 ;
+
+}
+.wasteBtn_container p{
+    width: 354px;
+    height: 24px;
+}
+.waste_btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 372px;
+    height: 116px;
+    gap: 5px;
+}
+

@@ -1,0 +1,221 @@
+.footer_main{
+    width: 100%;
+    height: 500px;
+    background-color: #0486A8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+.footer_section{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    width: 1500px;
+    position: relative;
+    top: 40px;
+    left: 300px;
+    gap: 30px;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 15px;
+}
+.footerList{
+    display: flex;
+    width: 734px;
+    height: 170px;
+    gap: 52px;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* border: 1px solid black; */
+
+}
+
+.socialMediaLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    color: white;
+    /* border: 1px solid black; */
+    gap: 30px;
+}
+.socialMedia_logo{
+    width: 50px;
+    height: 30px;
+}
+.footer_section1{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 130px;
+    left: 300px; 
+    width: 1470px;
+}
+.footer_section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    height: 80px;
+}
+.line{
+    /* display: block; */
+    width: 1470px;
+    height: 0px;
+    border: 1px solid white;
+    
+}
+.logo_footer{
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+    width: 150px;
+}
+.logo_footer  .cleanCity{
+    font-family: "SF Pro";
+    font-weight: bolder;
+    color: white;
+    font-size: 24px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+}
+.logo_footer > .cleanCity > .city{
+    color: #00CA5B;
+}
+.copyright_container{
+    /* border: 1px solid black; */
+    width: 500px;
+    left: 1290px;
+    top: 120px;
+    
+}
+.copyright_container p{
+    color: white;
+    letter-spacing: 1px;
+}
+.copyright_container p span{
+    margin-left: 20px;
+}
+@media screen and (max-width: 760px){
+    .footer_main{
+        width: 100vw;
+        height: 100vh;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 3px;
+        /* border: 1px solid white; */
+        width: 150px;
+
+    }
+    .footer_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+        width: 100vw;
+        height: 50%;
+        position: relative;
+        left: 0px;
+        padding-left: 25px;
+        gap: 0px;
+        /* background-color: red; */
+
+    }
+    .socialMediaLogo{
+        display: none;
+    }
+    .footerList{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100%;
+        gap: 50px;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        line-height: 18.9px;
+        /* background-color: red; */
+    }
+    .footerList > ul > li:nth-child(1){
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .line{
+        position: relative;
+        left: 0px;
+        width: 327px;
+
+    }
+    .logo_footer{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .copyright_container{
+        position: relative;
+        left: 0px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        /* background-color: red; */
+        height: 100%;
+        width: 100vw;
+        gap: 0px;
+        text-align: center;
+    }
+    .copyright_container p span:nth-child(2){
+        position: relative;
+        
+    }
+    
+    
+    .socialMediaLogo{
+        display: none;
+    }
+    .socialMedia_logo{
+        width: 40px;
+        height: 20px;
+    }
+    .footer_section1 {
+        /* border: 1px solid black; */
+        position: relative;
+        top: 100px;
+        left: 0px; 
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer_section2{
+        width: 100vw;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+        height: unset;
+    }
+    .copyright_container p span{
+        margin-left: unset;
+    }
+}
