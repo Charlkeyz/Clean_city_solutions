@@ -48,3 +48,36 @@
     padding: 20px;
     font-weight: 300
 }
+@media screen and (max-width: 768px) {
+    .welcome_container  h1{
+        width: 100vw;
+        /* height: 80px;     */
+        font-size: 25px;
+    }
+    .confirm_pickup{
+        /* position: relative; */
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 30px;
+    
+    }
+    .welcome_container{
+        width: 100vw;
+        padding-left: 10px;
+        gap: 0px;
+        
+        /* background-color: red; */
+    }
+    .confirm_pickup  input{
+        width: 80vw;
+        height: 64px;
+       
+    }
+    .welcome_container  p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #4D4D4D;
+    }
+}

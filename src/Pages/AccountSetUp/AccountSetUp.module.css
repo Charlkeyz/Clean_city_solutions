@@ -89,3 +89,52 @@
     width: 134px;
     height: 61px;
 }
+@media screen and (max-width: 768px) {
+    .setUp_account_container{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
+    
+    .mainWelcome{
+        background-color: red;
+
+    }
+    .finish_btn{
+        width: 80vw;
+        height: 64px;
+        margin-left: 30px;
+    }
+    .arrow_container{
+        display: none;
+    }
+    .sectionWelcome{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainWelcome{
+        width: 100vw;
+        height: 100vh;
+    }
+    .next_page{
+        width: 100vw;
+        height: 64px;
+        top: 600px;
+        left: 10px;
+        gap: 10px;    
+    }
+    .account_tracker{
+        width: 200px;
+        top: 10px;
+        left: 10px;
+    }
+    .welcome_container{
+        /* border: 1px solid black; */
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+}
+    

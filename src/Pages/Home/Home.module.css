@@ -1,7 +1,7 @@
 .homepage{
     width: 100%;
     height: 100vh;
-    background: url("/src/assets/BackgroundImages/Background_image.jpg");
+    background: url("../../../public/BackgroundImages/Background_image.jpg");
     background-color: lightgrey 50%;
     background-repeat: no-repeat;
     background-size: cover;

@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
-import LogoFooter from '../../assets/Dashboard_icons/logo1.svg'
+import LogoFooter from '../../../public/Dashboard_icons/logo1.svg'
 // import { PiCopyrightBold } from "react-icons/pi";
 import { MdOutlineCopyright } from "react-icons/md";
 

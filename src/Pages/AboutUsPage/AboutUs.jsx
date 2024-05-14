@@ -9,19 +9,19 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const aboutData = [
   {
     id: 1,
-    image: "/src/assets/BackgroundImages/unsplash_Rfflri94rs8.png",
+    image: "/BackgroundImages/unsplash_Rfflri94rs8.png",
     heading: "Making an impact on your beautiful planet",
     paragraph: "At clean Solutions our plans is to make a lasting impact on the wat we treat our environment as a society by providing top class recycling and waste management services to individuals and businesses",
   },
   {
     id: 2,
-    image: "/src/assets/BackgroundImages/unsplash_community.png",
+    image: "/BackgroundImages/unsplash_community.png",
     heading: "Creating a community for change",
     paragraph: "We at Clean City Solutions believe that to make a lasting change we need to empower each other to make small changes in our lives. That is why we have created several blogs and workshops to inform our members on what they can do to make the world a better place",
   },
   {
     id: 3,
-    image: "/src/assets/BackgroundImages/unsplash_vision.png",
+    image: "/BackgroundImages/unsplash_vision.png",
     heading: "Committed to seeing the vision through",
     paragraph: "Clean City Solutions goes the extra mile by going into problem areas where there is nobody to take control of the situation such as rivers and lakes where refuse dumping is causing harm to the environment",
   },

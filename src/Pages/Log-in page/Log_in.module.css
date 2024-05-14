@@ -53,7 +53,7 @@
     color: grey;
 }
 
-.continue > .line{
+ .line{
     width: 143px;
     height: 0px;
     border: 1px solid grey;
@@ -99,9 +99,56 @@
     background-color: unset;
     border: 1px solid black;
 }
-/* @media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
+    .continue{
+        bottom: 150px;
+        width: 100vw;
+    }
     .log_in_account{
+        width: 100vw;
+        height: 100vh;
         position: absolute;
+        border: none;
+        /* z-index: 1; */
+        right: 0%;
         left: 0px;
     }
-} */
+    .termsConditions{
+        bottom: 80px;
+    }
+    .log_in_container{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .background_container{
+        background-color: green;
+        width: 100vw;
+    }
+     .line{
+        width: 100px;
+        height: 0px;
+        border: 1px solid grey;
+        
+    }
+    .googleBtn{
+        /* border: 1px solid black; */
+        width: 90vw;
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .image{
+        display: none;
+    }
+    .log_in_btn{
+        width: 90vw;
+    }
+    .buttons{
+        width: 100vw;
+        justify-content: center;
+        /* height: 20%; */
+        bottom: 200px;
+
+        /* border: 1px solid black; */
+    }
+}

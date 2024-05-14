@@ -50,14 +50,14 @@ import { useSelector } from 'react-redux'
               <div className={styles.next_page}>
                 {
                   pageIndex === 2 ? (
-                    <Link to='/Dash_Board' style={{textDecoration: "none"}}>
+                    <Link to='/' style={{textDecoration: "none"}}>
                       <Button className = {styles.finish_btn}>Finish</Button>
                     </Link>
                     ) : (
                     <Button className = {styles.next_button} onClick = {next}>Continue</Button>
                   )
                 }
-                {pageIndex !==2 && <span>Skip</span>}
+                {pageIndex !==2 && <span onClick={prev}>Skip</span>}
             </div>
             </div>
             

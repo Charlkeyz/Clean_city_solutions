@@ -48,3 +48,37 @@
     gap: 10px;
     width: 438px;  
 }
+    @media screen and (max-width: 768px){
+        .building_container{
+            width: 100vw;
+            padding-left: 10px;
+        }
+        .building_btn{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100vw;  
+        }
+        .building_type{
+            top: 50px;
+        }
+        .building_container > h1{
+            /* border: 1px solid black; */
+            width: 100vw;
+            height: 80px;
+            font-size: 25px;
+        }
+        .building_container > p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #4D4D4D;
+            width: 100vw;
+        }
+        .building_type > p{
+            width: 100vw;
+            height: 23px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    
+}

@@ -65,4 +65,29 @@
     height: 116px;
     gap: 5px;
 }
+@media screen and (max-width: 768px){
+    .waste_container > h1{
+        /* border: 1px solid black; */
+        width: 100vw;
+        height: 40px;
+        font-size: 25px;
+    }
+    .waste_container{
+        width: 100vw;
+        padding-left: 10px;
+    }
+    .waste_container > p{
+        width: 100vw;
+        font-size: 15px;
+        font-weight: 500;
+        color: #4D4D4D;
+    }
+    .waste_selection select{
+        width: 80vw; 
+        border-radius: 10px;
+        font-size: 13px;
+        
+    }
+   
+}
 

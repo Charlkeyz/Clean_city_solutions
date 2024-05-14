@@ -67,7 +67,7 @@ const DashBoardCollections = () => {
         <div className={styles.collection_pickup}>
             <div className={styles.collection_pickup1}>
                 <h4>Pickup Locations</h4>
-                <img src="/src/assets/dashboardImages/Frame 483.png" alt="house" />
+                <img src="/dashboardImages/Frame 483.png" alt="house" />
             </div>
             <div className={styles.pickup_line}></div>
         </div>

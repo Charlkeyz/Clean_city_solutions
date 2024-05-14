@@ -49,7 +49,7 @@
     align-items: center;
     gap: 10px;
 }
-.log_in_form > form > input{
+.log_in_form  form  input{
     width: 60%;
     height: 62px;
     border-radius: 10px;
@@ -75,4 +75,20 @@ input[type=password]::-ms-reveal,
 input[type=password]::-ms-clear
 {
     display: none;
+}
+@media screen and (max-width: 768px) {
+    .passwordEye{
+        left: 150px;
+    }
+    .log_in_form{
+        /* background-color: red; */
+        width: 100vw;
+        height: 100vh;
+        /* position: absolute; */
+        
+    }
+    .log_in_form  form  input{
+        width: 90vw;
+        border: 1px solid grey;
+    }   
 }

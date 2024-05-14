@@ -12,7 +12,7 @@ const Log_in = () => {
    <>
        <main className={styles.log_in_container}>
          <section className={styles.background_container}>
-           <img className={styles.image} src="/src/assets/BackgroundImages/Background_image.jpg" alt="Sign-Up image" />
+           <img className={styles.image} src="/BackgroundImages/Background_image.jpg" alt="Sign-Up image" />
            <div className={styles.log_in_account}>
             <LogIn_Component/>
              <div className={styles.buttons}>

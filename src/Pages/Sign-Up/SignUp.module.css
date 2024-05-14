@@ -91,6 +91,39 @@
     color: #0486A8;
 }
 @media screen and (max-width: 768px) {
+    .continue{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100vw;
+        /* border: 1px solid black; */
+        position: relative;
+        bottom: 15px;
+        gap: 10px;
+        color: grey;
+        font-size: 12px;
+    }
+    .termsConditions{
+        font-size: 12px;
+    }
+    .continue > .line{
+        width: 100px;
+        height: 0px;
+        border: 1px solid grey;
+        
+    }
+        
+
+    
+    .googleSignIn{
+        
+        gap: 10px;
+        align-items: center;
+        border: 1px solid black;
+        color: black;
+        width: 90%;
+        /* height: 40px; */
+    }
     .image{
         display: none;
     }
@@ -108,9 +141,17 @@
     }
     .googleBtn{
         /* border: 1px solid black; */
-        width: 60%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 25px;
+    
+
     }
     
 } 

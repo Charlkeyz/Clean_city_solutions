@@ -125,16 +125,56 @@ input[type=password]::-ms-clear
     display: none;
 }
 @media screen  and (max-width: 768px) {
+    .checkbox{
+    width: 70%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    right: 0%;
+    
+    /* right: 150px; */
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    line-height: 18.9px
+}
+.input_form > form > input{
+    border: 1px solid grey;
+}
+.buttons{
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* bottom: 200px; */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+        /* background-color: red; */
+
+
+    /* border: 1px solid black; */
+}
+    .mobile_form{
+        /* background-color: red; */
+        position: relative;
+        bottom: 30px;
+        
+    }
+    
     .input_form{
         width: 100vw;
         height: 100vh;
         top: 20px;
     }
     .signUp_account{
-        width: 150%;
+        width: 155%;
         position: relative;
-        top: 25px;
-        right: 45px;
+        top: -20px;
+        right: 60px;
         
     }
     .input_form > form > input{

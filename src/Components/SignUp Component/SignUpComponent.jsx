@@ -47,7 +47,7 @@ const SignUpComponent = () => {
             <h1>Create your account</h1>
             <p>Already have an account? <Link to={'/log_in'} className={styles.log_in}><span>Log in</span></Link> </p>
         </section>
-        <form action="">
+        <form action="" className={styles.mobile_form}>
             <input 
               type="text" 
               placeholder="First name"
