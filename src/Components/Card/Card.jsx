@@ -28,9 +28,7 @@ const Card = () => {
     return(
         <>
 
-            <div>
-                {/* <img src={cardData[0].img} alt="page" /> */}
-            </div>
+            <div className={styles.cardContainer}>
             {
                 cardData.map((item, index)=> (
                     
@@ -48,6 +46,8 @@ const Card = () => {
                 ))
 
             }
+            </div>
+            
         </>
     )
 }

@@ -1,5 +1,5 @@
 .footer_main{
-    width: 100%;
+    width: 100vw;
     height: 500px;
     background-color: #0486A8;
     display: flex;
@@ -10,10 +10,10 @@
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid black; */
-    width: 1500px;
+    width: 90vw;
     position: relative;
     top: 40px;
-    left: 300px;
+    left: 50px;
     gap: 30px;
     
 }
@@ -30,7 +30,7 @@
 }
 .footerList{
     display: flex;
-    width: 734px;
+    width: 50vw;
     height: 170px;
     gap: 52px;
     color: white;
@@ -60,8 +60,9 @@
     /* border: 1px solid black; */
     position: relative;
     top: 130px;
-    left: 300px; 
-    width: 1470px;
+    left: 50px; 
+    width: 93vw;
+    /* background-color: red; */
 }
 .footer_section2{
     display: flex;
@@ -72,7 +73,7 @@
 }
 .line{
     /* display: block; */
-    width: 1470px;
+    width: 93vw;
     height: 0px;
     border: 1px solid white;
     
