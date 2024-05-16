@@ -31,7 +31,7 @@ const AboutUs = ({aboutSectionRef}) => {
   return (
     <main ref={aboutSectionRef}>
         <section className={styles.aboutUs_container} >
-          <h1 style={{fontSize: 60}}>About Us</h1>
+          <h1 style={{fontSize: 45}}>About Us</h1>
           <div className={styles.mobile_aboutUs}>
             {
               aboutData.map((item, index)=> (

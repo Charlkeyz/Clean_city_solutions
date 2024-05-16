@@ -83,6 +83,10 @@
         border-radius: 0;
         font-size: 7px;
     }
+    .aboutUs_container h1:nth-child(0){
+        font-size: 30px;
+    }
+
     .aboutUs_container{
         gap: 20px;
     }
