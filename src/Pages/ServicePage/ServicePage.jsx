@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Button from "../../Components/Button/Button"
 import Footer from "../../Components/Footer/Footer"
 import Navbar from "../../Components/Navbar/Navbar"
@@ -34,7 +35,9 @@ const ServicePage = () => {
                 <h5>Our Services</h5>
                 <h1>Let us handle the heavy lifting</h1>
                 <p>Discover the power of waste management and recycling right at your fingertips.</p>
-                <Button>Get started today</Button>
+                <Link to='/sign_up' style={{textDecoration: "none"}}>
+                  <Button>Get started today</Button>
+                </Link>
               </div>
               <div className={styles.container_style2}>
                 <img src="/Service_image/Social media, delivery _ trash, man, media, message, heavy, drag.png" alt="image" />
