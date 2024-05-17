@@ -31,7 +31,7 @@ import { useSelector } from 'react-redux'
   return (
     <main className={styles.mainWelcome}>
         <section className={styles.sectionWelcome}>
-            <img src="/src/assets/BackgroundImages/Background_image.jpg" alt="image" />
+            <img src="/BackgroundImages/Background_image.jpg" alt="image" />
             <div className={styles.setUp_account_container}>
               <div className={styles.arrow_container}>
                 {pageIndex !== 0 &&<FaArrowLeft onClick={prev}/>}

@@ -23,16 +23,18 @@ import styles from './SignUp.module.css'
             <div className={styles.create_account}>
               <SignUpComponent/>
               
-              <div className={styles.continue}>
-                  <div className={styles.line}></div>
-                  <p>or continue with</p>
-                  <div className={styles.line}></div> 
-              </div>
-              <div className={styles.googleBtn}>
-                <Button className = {styles.googleSignIn}><FcGoogle className={styles.googleIcon}/> Google</Button>
-              </div>
-              <div className={styles.termsConditions}>
-                <p>By creating an account you agree to our <span>Terms & Conditions</span> and our <span>Privacy Policy</span>.</p>
+              <div className={styles.sign_up_subContainer}>
+                  <div className={styles.continue}>
+                      <div className={styles.line}></div>
+                      <p>or continue with</p>
+                      <div className={styles.line}></div> 
+                  </div>
+                  <div className={styles.googleBtn}>
+                    <Button className = {styles.googleSignIn}><FcGoogle className={styles.googleIcon}/> Google</Button>
+                  </div>
+                  <div className={styles.termsConditions}>
+                    <p>By creating an account you agree to our <span>Terms & Conditions</span> and our <span>Privacy Policy</span>.</p>
+                  </div>
               </div>
             </div>
           </section>

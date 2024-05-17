@@ -32,29 +32,40 @@
     background-color: white;
     left: 0px;
 }
+.log_in_subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -170px;
+    /* background-color: red; */
+    gap: 25px;
+    width: 100%;
+}
 .buttons{
     width: 60%;
     /* height: 20%; */
     display: flex;
-    position: relative;
+    /* position: relative; */
     align-items: center;
-    bottom: 330px;
+    /* bottom: 330px; */
     /* border: 1px solid black; */
 }
 .continue{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     /* border: 1px solid black; */
-    position: relative;
-    bottom: 300px;
+    /* position: relative; */
+    /* bottom: 300px; */
     gap: 20px;
     color: grey;
 }
 
  .line{
-    width: 143px;
+    width: 100px;
     height: 0px;
     border: 1px solid grey;
     
@@ -62,7 +73,7 @@
 .googleBtn{
     /* border: 1px solid black; */
     width: 60%;
-    position: relative;
+    /* position: relative; */
     bottom: 250px;
 }
 .googleIcon{
@@ -72,7 +83,7 @@
     /* border: 1px solid black; */
     width: 60%;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     color: grey;
     bottom: 230px;
 }
@@ -83,7 +94,7 @@
     color: #0486A8;
 }
 .log_in_btn{
-    width: 375%;
+    width: 30vw;
 }
 .googleSignIn{
     background-color: unset;
@@ -101,8 +112,22 @@
 }
 @media screen and (max-width: 768px) {
     .continue{
-        bottom: 150px;
-        width: 100vw;
+        bottom: 170px;
+        width: 90vw;
+    }
+    .continue p{
+        font-size: 15px;
+    }
+    .log_in_subContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -80px;
+        /* background-color: red; */
+        gap: 25px;
+        width: 100%;
     }
     .log_in_account{
         width: 100vw;
@@ -121,7 +146,7 @@
         width: 100vw;
     }
     .background_container{
-        background-color: green;
+        /* background-color: green; */
         width: 100vw;
     }
      .line{
@@ -133,8 +158,7 @@
     .googleBtn{
         /* border: 1px solid black; */
         width: 90vw;
-        position: relative;
-        bottom: 100px;
+       
     }
     
     .image{
@@ -147,7 +171,7 @@
         width: 100vw;
         justify-content: center;
         /* height: 20%; */
-        bottom: 200px;
+        
 
         /* border: 1px solid black; */
     }
