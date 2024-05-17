@@ -43,3 +43,50 @@
     line-height: 23.4px;
     color: grey;
 }
+@media screen and (max-width: 1440px){
+    .address_section{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 436px;
+        gap: 30px;
+    }
+    .address_section h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .address_input{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .address_input label{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23.4px;
+    }
+    .address_input input{
+        height: 62px;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 20px;
+    
+    }
+    .address_container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .address_line{
+        width: 185px;
+        height: 0px;
+        border: 1px solid grey;
+    }
+    .address_container1 h4{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23.4px;
+        color: grey;
+    }
+}
