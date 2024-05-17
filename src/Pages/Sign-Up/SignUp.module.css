@@ -100,6 +100,110 @@
 .termsConditions > p > span{
     color: #0486A8;
 }
+@media screen  and (max-width: 1440px){
+    .sign_up_container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    
+    
+    }
+    .background_container{
+        width: 1440px;
+        height: 100%;
+        display: flex;
+        /* box-shadow: -5px 0px 10px 5px rgba(0, 0, 0, 0.5); */
+    
+    
+    }
+    .image{
+        width: 90vw;
+        height: 100vh;
+    }
+    .create_account{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 720px;
+        height: 100%;
+        position: absolute;
+        /* border: 1px solid black; */
+        /* z-index: 1; */
+        right: 50%;
+        background-color: white;
+        left: 0px;
+        
+    }
+    .sign_up_subContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        position: relative;
+        top: -60px;
+    }
+    .googleSignIn{
+        background-color: unset;
+        display: flex;
+        font-weight: 500;
+        gap: 10px;
+        align-items: center;
+        border: 1px solid black;
+        color: black;
+        width: 100%;
+    }
+    .googleSignIn:hover{
+        background-color: unset;
+        border: 1px solid black;
+    }
+    .continue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        /* border: 1px solid black; */
+        /* position: relative; */
+        bottom: 85px;
+        gap: 20px;
+        color: grey;
+    }
+    
+    .continue > .line{
+        width: 143px;
+        height: 0px;
+        border: 1px solid grey;
+        
+    }
+    .googleBtn{
+        /* border: 1px solid black; */
+        width: 60%;
+        /* position: relative; */
+        bottom: 40px;
+    }
+    .googleIcon{
+        font-size: 25px;
+    }
+    .termsConditions{
+        /* border: 1px solid black; */
+        width: 60%;
+        text-align: center;
+        /* position: relative; */
+        color: grey;
+        bottom: 10px;
+    }
+    .termsConditions > p{
+        letter-spacing: 0.3px;
+    }
+    .termsConditions > p > span{
+        color: #0486A8;
+    }
+}
 @media screen and (max-width: 768px) {
     .continue{
         display: flex;
