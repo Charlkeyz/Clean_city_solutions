@@ -20,7 +20,7 @@
         color: #fff;
         font-size: 25px;
         font-weight: 500;
-        font-style: normal;
+        /* font-style: normal; */
        
     
         
@@ -37,9 +37,9 @@
     }
     .container2{ 
         font-size: 15px;
-        font-style: normal;
+        /* font-style: normal; */
         font-weight: 100;
-        line-height: 100%;
+        line-height: 20px;
         /* border: 1px solid white; */
         margin-top: 15px;
     }
