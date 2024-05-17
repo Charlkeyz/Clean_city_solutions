@@ -1,10 +1,15 @@
 .aboutUs_container{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    /* gap: 10px; */
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
+.aboutUs_container h1:first-child{
+    font-size: 50px;
+}
+
 
 .aboutUs{
     display: flex;
@@ -39,8 +44,10 @@
     top: 30px;
 
 }
+.heading_paragraph h1:first-child{
+    font-size: 40px;
+}
 .heading_paragraph h1{
-    font-size: 42px;
     width: 600px;
 }
 .heading_paragraph p{
@@ -83,12 +90,13 @@
         border-radius: 0;
         font-size: 7px;
     }
-    .aboutUs_container h1:nth-child(0){
-        font-size: 30px;
-    }
+    
 
     .aboutUs_container{
         gap: 20px;
+    }
+    .aboutUs_container h1:first-child{
+        font-size: 30px;
     }
     .aboutUs_index1{
         display: flex;
@@ -133,12 +141,18 @@
         /* background-color: red; */
     }
     .heading_paragraph h1{
-        font-size: 15px;
+        
         width: 50vw;
+    }
+    .heading_paragraph h1:first-child{
+        font-size: 15px;
     }
     .heading_paragraph p{
         font-size: 10px;
         /* width: 670px; */
+    }
+    .aboutUs_index1{
+        display: none;
     }
     
 }
