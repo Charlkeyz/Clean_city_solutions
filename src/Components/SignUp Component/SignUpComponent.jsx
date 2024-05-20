@@ -82,7 +82,7 @@ const SignUpComponent = () => {
               />
             <span className={styles.passwordEye} onClick={handlePasswordClick}>{showPassword ? <IoMdEye/> : <IoMdEyeOff/>}</span>
 
-            <div className={styles.buttons}>
+              <div className={styles.buttons}>
                 <Link to = { setFormFill ? "/account_setup" : ""} style={{textDecoration: "none"}} onClick={() => {
                     if (!setFormFill) {
                       alert("Please fill in all fields");

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom"
 import Button from "../../../Components/Button/Button"
 import styles from './DashBoardCollections.module.css'
@@ -32,7 +33,7 @@ const DashBoardCollections = () => {
 
     function moveToPage(){
         dispatch(setMoveToAddress(true))
-    console.log("1", linkToAddress.moveToAddress)
+    // console.log("1", linkToAddress.moveToAddress)
 
     }
 
