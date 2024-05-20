@@ -57,7 +57,7 @@ import { useSelector } from 'react-redux'
                     <Button className = {styles.next_button} onClick = {next}>Continue</Button>
                   )
                 }
-                {pageIndex !==2 && <span onClick={prev}>Skip</span>}
+                {(pageIndex !==2 && pageIndex !== 0) && <span onClick={prev}>Skip</span>}
             </div>
             </div>
             
